@@ -2,15 +2,26 @@
 % Please edit documentation in R/test.R
 \name{test}
 \alias{test}
-\title{Title}
+\title{This is the Title}
 \usage{
 test(x, y)
 }
 \arguments{
-\item{x}{}
+\item{x}{A number}
 
-\item{y}{}
+\item{y}{A number}
+}
+\value{
+The sum 'x + y'
+The export is used for functions you want people to use from the package
 }
 \description{
-Title
+This will be the description
+}
+\details{
+This will be more details
+}
+\examples{
+test(4, 5)
+test(3:4, 7:8)
 }
